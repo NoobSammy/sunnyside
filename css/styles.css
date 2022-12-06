@@ -25,9 +25,30 @@
 body {
 	font-family: var(--font-f-body);
 	font-size: var(--font-size);
+	font-weight: var(--font-w-semibold);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-f-heading);
+	font-weight: var(--font-w-bold);
 }
 a {
 	text-decoration: none;
+}
+
+/*
+ * Header
+ */
+.header {
+	height: 525px;
+	background-image: url(../images/mobile/image-header.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /*
@@ -37,7 +58,6 @@ a {
 	display: flex;
 	justify-content: space-between;
 	padding: 35px;
-	background-color: skyblue;
 }
 .navbar__logo {
 	color: var(--white);
@@ -47,4 +67,17 @@ a {
 }
 .navbar__list {
 	display: none;
+}
+
+/*
+ * Hero
+ */
+.header__hero {
+	text-align: center;
+}
+.hero__title {
+	color: var(--white);
+	text-transform: uppercase;
+	font-weight: var(--font-w-black);
+	font-size: 3em;
 }
