@@ -21,3 +21,30 @@
 	--font-w-bold: 700;
 	--font-w-black: 900;
 }
+
+body {
+	font-family: var(--font-f-body);
+	font-size: var(--font-size);
+}
+a {
+	text-decoration: none;
+}
+
+/*
+ * Navbar
+ */
+.header__navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px;
+	background-color: skyblue;
+}
+.navbar__logo {
+	color: var(--white);
+}
+.navbar__bars {
+	cursor: pointer;
+}
+.navbar__list {
+	display: none;
+}
