@@ -154,3 +154,43 @@ a {
 	font-size: 16px;
 	padding: 0 1rem;
 }
+
+/*
+ * Testimonials
+ */
+.testimonials {
+	padding-top: 4rem;
+	text-align: center;
+}
+.testimonials__testimonial {
+	margin-bottom: 4rem;
+}
+.testimonials__title {
+	margin: 0 0 4rem;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	color: var(--grayish-blue);
+}
+.testimonial__photo {
+	width: 5rem;
+	border-radius: 50%;
+}
+.testimonial__text {
+	margin: 2rem 0;
+	padding: 0 1.5rem;
+	color: var(--very-grayish-blue);
+}
+.testimonial__name,
+.testimonial__job {
+	display: block;
+}
+.testimonial__name {
+	margin-bottom: 1rem;
+	font-family: var(--font-f-heading);
+	font-weight: var(--font-w-black);
+	color: var(--dark-des-blue);
+}
+.testimonial__job {
+	color: var(--grayish-blue);
+	font-size: 0.9rem;
+}
