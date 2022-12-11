@@ -194,3 +194,17 @@ a {
 	color: var(--grayish-blue);
 	font-size: 0.9rem;
 }
+
+/*
+ * Gallery
+ */
+.gallery {
+	display: flex;
+	flex-direction: column;
+}
+.gallery__row {
+	display: flex;
+}
+.gallery__img {
+	width: 50%;
+}
