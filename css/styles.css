@@ -125,3 +125,32 @@ a {
 .about__link.about__link--red::after {
 	background-color: var(--soft-red);
 }
+
+/*
+ * Services
+ */
+.services__service {
+	height: 86.5vh;
+	text-align: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+.services__service--graphic-design {
+	background-image: url(../images/mobile/image-graphic-design.jpg);
+	color: var(--dark-des-cyan);
+}
+.services__service--photography {
+	background-image: url(../images/mobile/image-photography.jpg);
+	color: var(--dark-blue);
+}
+.service__title {
+	margin-top: 0;
+}
+.service__text {
+	margin: 0 0 3rem;
+	font-size: 16px;
+	padding: 0 1rem;
+}
