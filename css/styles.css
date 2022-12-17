@@ -19,12 +19,15 @@
 	--font-f-heading: "Fraunces", serif;
 	--font-w-semibold: 600;
 	--font-w-bold: 700;
+	--font-w-extrabold: 800;
 	--font-w-black: 900;
+
+	font-size: var(--font-size);
+	line-height: 1;
 }
 
 body {
 	font-family: var(--font-f-body);
-	font-size: var(--font-size);
 	font-weight: var(--font-w-semibold);
 }
 h1,
@@ -45,7 +48,7 @@ a {
  * Header
  */
 .header {
-	height: 525px;
+	height: 538px;
 	background-image: url(../images/mobile/image-header.jpg);
 	background-position: center bottom;
 	background-size: cover;
@@ -58,12 +61,14 @@ a {
 .header__navbar {
 	display: flex;
 	justify-content: space-between;
-	padding: 35px;
+	padding: 32px 24px;
 }
 .navbar__logo {
+	font-weight: var(--font-w-extrabold);
 	color: var(--white);
 }
 .navbar__bars {
+	height: 1rem;
 	cursor: pointer;
 }
 .navbar__list {
