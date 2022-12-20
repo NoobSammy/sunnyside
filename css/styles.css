@@ -40,6 +40,9 @@ h6 {
 	font-weight: var(--font-w-bold);
 	margin: 0;
 }
+p {
+	margin: 0;
+}
 a {
 	text-decoration: none;
 	color: inherit;
@@ -99,17 +102,19 @@ a {
 	width: 100%;
 }
 .about__body {
-	padding: 3rem 1.5rem;
+	padding: 70px 1.5rem;
 	text-align: center;
 }
 .about__title {
-	margin-top: 0;
+	margin-bottom: 30px;
 	font-size: 2rem;
+	line-height: 42px;
 	color: var(--dark-des-blue);
 }
 .about__text {
+	padding-bottom: 30px;
+	line-height: 27px;
 	color: var(--dark-grayish-blue);
-	padding-bottom: 1rem;
 }
 .about__link {
 	text-transform: uppercase;
