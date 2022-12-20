@@ -145,9 +145,9 @@ a {
  * Services
  */
 .services__service {
-	height: 86.5vh;
+	height: 600px;
 	text-align: center;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
@@ -162,12 +162,13 @@ a {
 	color: var(--dark-blue);
 }
 .service__title {
-	margin-top: 0;
+	margin-bottom: 34px;
 }
 .service__text {
-	margin: 0 0 3rem;
-	font-size: 16px;
+	margin-bottom: 56px;
 	padding: 0 1rem;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 /*
