@@ -27,19 +27,23 @@
 		<header class="header">
 			<nav class="header__navbar">
 				<a href="/" class="navbar__logo">sunnyside</a>
-				<img src="images/icon-hamburger.svg" alt="☰" class="navbar__bars" />
-				<ul class="navbar__list">
+				<button id="navbar-btn" class="navbar__btn">
+					<img src="images/icon-hamburger.svg" alt="☰" class="navbar__bars" />
+				</button>
+				<ul class="navbar__list" id="navbar-list">
 					<li class="navbar__item">
-						<a href="/" class="navbar__link">About</a>
+						<a href="#about" class="navbar__link">About</a>
 					</li>
 					<li class="navbar__item">
-						<a href="/" class="navbar__link">Services</a>
+						<a href="#services" class="navbar__link">Services</a>
 					</li>
 					<li class="navbar__item">
-						<a href="/" class="navbar__link">Projects</a>
+						<a href="#proyects" class="navbar__link">Projects</a>
 					</li>
-					<li class="navbar__item">
-						<a href="/" class="navbar__link">Contact</a>
+					<li class="navbar__item navbar__item--highlighted">
+						<a href="#contact" class="navbar__link navbar__link--highlighted">
+							Contact
+						</a>
 					</li>
 				</ul>
 			</nav>
@@ -223,5 +227,6 @@
 				</p>
 			</div>
 		</footer>
+		<script src="js/app.js"></script>
 	</body>
 </html>
