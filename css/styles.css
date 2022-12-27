@@ -232,26 +232,27 @@ a {
  * Footer
  */
 .footer {
-	padding: 3rem 0;
-	background-color: var(--dark-mod-cyan);
+	padding: 70px 40px 80px;
+	background-color: #90d4c5;
 	text-align: center;
 	color: var(--dark-des-cyan);
 }
 .footer__name {
 	display: inline-block;
-	margin-bottom: 2rem;
+	margin-bottom: 54px;
 	font-size: 2rem;
+	font-weight: var(--font-w-extrabold);
 }
 .footer__links {
 	display: flex;
-	justify-content: space-around;
-	margin-bottom: 5rem;
+	justify-content: space-between;
+	margin-bottom: 94px;
 }
 .footer__social {
-	display: flex;
-	justify-content: space-between;
 	margin-bottom: 3rem;
-	padding: 0 25vw;
+}
+.footer__icon {
+	margin: 0 20px;
 }
 .attribution__frontend-mentor {
 	margin: 0 0 0.5rem;
