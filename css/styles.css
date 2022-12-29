@@ -72,6 +72,9 @@ a {
 	font-weight: var(--font-w-extrabold);
 	color: var(--white);
 }
+.navbar__desktop {
+	display: none;
+}
 .navbar__btn {
 	height: 18px;
 	padding: 0;
@@ -310,9 +313,33 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
-	/* Header */
+	/*
+	 * Header
+	 */
 	.header {
 		min-height: 100vh;
 		background-image: url(../images/desktop/image-header.jpg);
+	}
+
+	/*
+	 * Navbar
+	 */
+	.navbar__btn {
+		display: none;
+	}
+	.navbar__desktop {
+		display: flex;
+		gap: 3rem;
+		list-style: none;
+		color: var(--white);
+	}
+	.navbar__item--highlighted {
+		margin-top: 0;
+	}
+	.navbar__link {
+		line-height: 1;
+	}
+	.navbar__link--highlighted {
+		background-color: var(--white);
 	}
 }
