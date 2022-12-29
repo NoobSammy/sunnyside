@@ -371,4 +371,23 @@ a {
 		padding: 150px 145px 0 126px;
 		text-align: left;
 	}
+
+	/*
+	 * Services
+	 */
+	.services {
+		display: flex;
+	}
+	.services__service {
+		width: 50%;
+	}
+	.services__service--graphic-design {
+		background-image: url(../images/desktop/image-graphic-design.jpg);
+	}
+	.services__service--photography {
+		background-image: url(../images/desktop/image-photography.jpg);
+	}
+	.service__text {
+		padding: 0px 185px;
+	}
 }
