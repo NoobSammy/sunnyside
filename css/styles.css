@@ -390,4 +390,20 @@ a {
 	.service__text {
 		padding: 0px 185px;
 	}
+
+	/*
+	 * Testimonials
+	 */
+	.testimonials {
+		padding: 118px 0;
+	}
+	.testimonials__grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: auto;
+		padding: 0 7rem;
+	}
+	.testimonials__testimonial {
+		margin-bottom: 0;
+	}
 }
