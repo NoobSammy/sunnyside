@@ -413,4 +413,12 @@ a {
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: auto;
 	}
+
+	/*
+	 * Footer
+	 */
+	.footer__links {
+		justify-content: center;
+		gap: 3rem;
+	}
 }
