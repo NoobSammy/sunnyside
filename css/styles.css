@@ -271,14 +271,13 @@ a {
  * Gallery
  */
 .gallery {
-	display: flex;
-	flex-direction: column;
-}
-.gallery__row {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
 }
 .gallery__img {
-	width: 50%;
+	display: block;
+	width: 100%;
 }
 
 /*
@@ -405,5 +404,13 @@ a {
 	}
 	.testimonials__testimonial {
 		margin-bottom: 0;
+	}
+
+	/*
+	 * Gallery
+	 */
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto;
 	}
 }
