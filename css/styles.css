@@ -328,12 +328,19 @@ a {
 	/*
 	 * Navbar
 	 */
+	.navbar__logo {
+		font-size: 30px;
+	}
 	.navbar__btn {
+		display: none;
+	}
+	.navbar__list {
 		display: none;
 	}
 	.navbar__desktop {
 		display: flex;
-		gap: 3rem;
+		gap: 50px;
+		padding-left: 0;
 		list-style: none;
 		color: var(--white);
 	}
