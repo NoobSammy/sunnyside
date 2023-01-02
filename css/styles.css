@@ -420,7 +420,10 @@ a {
 	 * Testimonials
 	 */
 	.testimonials {
-		padding: 118px 0;
+		padding: 166px 0;
+	}
+	.testimonials__title {
+		margin-bottom: 86px;
 	}
 	.testimonials__grid {
 		display: grid;
@@ -430,6 +433,15 @@ a {
 	}
 	.testimonials__testimonial {
 		margin-bottom: 0;
+	}
+	.testimonial__photo {
+		margin-bottom: 68px;
+	}
+	.testimonial__text {
+		margin-bottom: 80px;
+	}
+	.testimonial__name {
+		margin-bottom: 17px;
 	}
 
 	/*
