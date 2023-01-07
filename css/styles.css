@@ -455,8 +455,18 @@ a {
 	/*
 	 * Footer
 	 */
+	.footer {
+		padding: 72px 0;
+	}
+	.footer__name {
+		margin-bottom: 48px;
+	}
 	.footer__links {
 		justify-content: center;
-		gap: 3rem;
+		gap: 60px;
+		margin-bottom: 45px;
+	}
+	.footer__icon {
+		margin: 0 14px;
 	}
 }
