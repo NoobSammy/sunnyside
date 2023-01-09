@@ -192,12 +192,16 @@ a {
 	left: 50%;
 	transform: translate(-50%, -75%);
 	opacity: 0.25;
+	z-index: -1;
 }
 .about__link.about__link--yellow::after {
 	background-color: var(--yellow);
 }
 .about__link.about__link--red::after {
 	background-color: var(--soft-red);
+}
+.about__link:hover::after {
+	opacity: 1;
 }
 
 /*
