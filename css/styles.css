@@ -120,7 +120,13 @@ a {
 	margin-top: 20px;
 }
 .navbar__link {
+	padding: 23px 30px;
+	border-radius: 34px;
 	line-height: 58px;
+}
+.navbar__link:hover,
+.navbar__link:active {
+	background-color: rgba(250, 212, 0, 0.25);
 }
 .navbar__link--highlighted {
 	margin-top: 20px;
@@ -414,7 +420,6 @@ a {
 	}
 	.navbar__desktop {
 		display: flex;
-		gap: 50px;
 		padding-left: 0;
 		list-style: none;
 		color: var(--white);
@@ -425,7 +430,13 @@ a {
 	.navbar__link {
 		line-height: 1;
 	}
+	.navbar__link:hover,
+	.navbar__link:active {
+		background-color: rgba(255, 255, 255, 0.25);
+		color: var(--white);
+	}
 	.navbar__link--highlighted {
+		margin-left: 20px;
 		background-color: var(--white);
 	}
 
