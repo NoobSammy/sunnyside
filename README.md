@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links 🔗
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/sunnyside)
-- Live Site URL: [Add live site URL here](https://noobsamy.github.io/sunnyside)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-_r_3tbeHfC)
+- Live Site URL: [Github Pages](https://noobsammy.github.io/sunnyside)
 
 ## My process 🏗
 
@@ -43,7 +43,7 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 - Git and Github
-- [Normalize CSS](https://necolas.github.io/normalize.css/https://styled-components.com/) - For styles
+- [Normalize CSS](https://necolas.github.io/normalize.css) - For styles
 
 ### What I learned 📚
 
@@ -64,6 +64,7 @@ e.target.matches("");
 - Frontend Mentor - [@JSamuelAP](https://www.frontendmentor.io/profile/JSamuelAP)
 - LinkeIn- [@JSamuelAP](https://www.linkedin.com/in/jsamuelap)
 - Twitter - [@JSamuelAP](https://www.twitter.com/JSamuelAP)
+- Email - [sp4619168@gmail.com](mailto:sp4619168@gmail.com)
 
 ## Acknowledgments 💕
 
