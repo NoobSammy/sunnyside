@@ -4,7 +4,7 @@
 	--yellow: hsl(51, 100%, 49%);
 	--dark-des-cyan: hsl(167, 40%, 24%);
 	--dark-blue: hsl(198, 62%, 26%);
-	--dark-mod-cyan: hsl(168, 34%, 41%);
+	--dark-mod-cyan: hsl(167, 44%, 70%);
 
 	/* Neutral colors */
 	--dark-des-blue: hsl(212, 27%, 19%);
@@ -295,7 +295,7 @@ a {
  */
 .footer {
 	padding: 70px 40px 80px;
-	background-color: #90d4c5;
+	background-color: var(--dark-mod-cyan);
 	text-align: center;
 	color: var(--dark-des-cyan);
 }
