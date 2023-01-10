@@ -556,6 +556,13 @@ a {
 	}
 
 	/*
+	 * Services
+	 */
+	.service__text {
+		padding: 0 165px;
+	}
+
+	/*
 	 * Testimonials
 	 */
 	.testimonials {
