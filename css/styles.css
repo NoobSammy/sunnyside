@@ -310,6 +310,10 @@ a {
 	justify-content: space-between;
 	margin-bottom: 94px;
 }
+.footer__link:hover,
+.footer__link:active {
+	color: var(--white);
+}
 .footer__social {
 	margin-bottom: 3rem;
 }
@@ -324,6 +328,10 @@ a {
 }
 .attribution__link {
 	text-decoration: underline;
+}
+.attribution__link:hover,
+.attribution__link:active {
+	color: var(--white);
 }
 
 @media screen and (min-width: 481px) {
